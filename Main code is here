@@ -1,0 +1,43 @@
+
+var first_sentence_word = 'The';
+var first_sentence_word2 = 'And the';
+
+const listofnouns = ['time', 'dog', 'fish', 'cats', 'money', 'sex', 'years', 'ways', 'days',  'thing', 'man', 'world', 'life', 'hand', 'part', 'child', 'eye', 'woman', 'place', 'work', 'week', 'cap', 'point', 'government', 'company', 'number', 'group', 'problem', 'fact','roman','dress','brother','dildo','milf','python','lizard','mongoose','chicada'];
+
+
+const random = listofnouns[Math.floor(Math.random() * listofnouns.length)];
+const random2 = listofnouns[Math.floor(Math.random() * listofnouns.length)];
+
+
+LISTOFVERBS = [ 'fucks', 'cries', 'slaps', 'dies', 'eats', 'marries', 'sucks', 'shoots', 'swallows','spanks','cleans'];
+
+
+
+LISTOFADVERBS = [ 'happily', 'sexily', 'gently' , 'ravonously', 'gleefully', 'resentfully']
+
+
+
+
+
+const sb = LISTOFADVERBS[Math.floor(Math.random() * LISTOFADVERBS.length)];
+
+
+const sb2 = LISTOFADVERBS[Math.floor(Math.random() * LISTOFADVERBS.length)];
+
+const st = LISTOFVERBS[Math.floor(Math.random() * LISTOFVERBS.length)];
+
+const st2 = LISTOFVERBS[Math.floor(Math.random() * LISTOFVERBS.length)];
+
+
+
+const totalsentencearray = [first_sentence_word, random, st, sb];
+
+const totalsentencearray2 = [first_sentence_word2, random2, st2, sb2];
+
+console.log(totalsentencearray.join('-'));
+
+console.log(totalsentencearray2.join('-'));
+
+
+
+    
